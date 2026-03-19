@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 fetch('/api/confession', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ reaction: 'Confessed to being a monkey, talking infinitely, and owing a treat! 🐒🗣️🍕' })
+                    body: JSON.stringify({ reaction: 'Confessed to being a monkey, stealing food, and that I am her favorite! 🐒🍟💯' })
                 })
                 .then(res => res.json())
                 .catch(err => console.error('Error recording response:', err));
